@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于我们
-subtitle: Volatility as a Service
+subtitle: Forecasting as a Service
 ---
 
 
