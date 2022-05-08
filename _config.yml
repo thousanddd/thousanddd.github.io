@@ -14,11 +14,11 @@ author: A Platform For Volatility Tech
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  主页: "https://thousanddd.github.io/index.html"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  关于我们: "aboutme"
 
 # --- Logo --- #
 
@@ -75,9 +75,9 @@ rss-description: A Platform For Volatility Tech
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
