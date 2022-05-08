@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Project
+title: Projects
 ---
 
 
 
 
-### Current Projects
+### Upcoming
 
 
 
