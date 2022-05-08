@@ -1,16 +1,65 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About
 ---
 
-My name is Inigo Montoya. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
 
-### My story
+### 登月之旅
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+
+
+
+分析师能够正确预测市场走势，和真实参与交易并获利退出是两回事。中间的差别，是人们对自我和市场认知的修炼，目的是让我们能够冷静地面对市场、在无压力的环境下思考如何交易。真正实现“Mastered The Art Of Trading”的那一刻，是我们将对市场判断和实际获利间的距离，缩到足够短。
+
+
+
+
+所以，能够持续盈利的的交易员和其他人是两类人，就好像地球和月球的关系。虽然都是太阳系的行星，彼此有共性，就好像只要能下单买卖股票，都可以称自己为Trader。但两类人天生的差异，一个白昼、一个夜晚。人类已经成功登月，那意味着在市场持续盈利也是可能的，只是做到的人少之又少。
+
+
+
+
+我们在地球上遥望星空，月球是如此清晰，感觉触手可及。我们在任何一天，看到市场有很多赚钱的机会，感觉自己能抓住。但能持续盈利的只有那些成功登月的人。和另一个分组相比，差别不在于智商、体力或者拥有更好的交易软件。只是前者在交易时的思考方式和后者显著不同。
+
+
+
+
+如果把市场看作一个充满无限不确定风险的环境，它受很多复杂、不可解释的因子影响。交易员需要训练的，是如何保持专注、自信的接受这样的不确定，确保自己的每个决定不被情绪影响。
+
+
+
+
+但人却是一种道德动物，本质是由基因组成。基因的生物属性，就是生长、裂变和遗传。我们每天追求的生存发展、一日三餐、求偶，是为了让自己得到快乐。这种快乐，其实是人的基因“设计”出来的。进化论设计大脑的初衷，并非要我们看清世界，而是让大脑产生有利于基因延续的感知和信念。我们“理性”的决定，很大程度上只是人们在当下环境里，自己的各种感觉相互竞争、说服大脑的过程。
+
+
+
+
+### 金融奇点
+
+
+
+
+既然进化论设计人类大脑的初衷，并非要我们看清世界，是不是机器可以有效规避这个基因的不足。人类的职责，应该变为坐在驾驶舱里，监督、控制和检视机器的行为？金融奇点，Financial Singularity真的存在吗？或者，更准确地表述方式是，通过AI技术的不断进化，我们能在金融这个垂域实现某种超级智能吗？
+
+
+
+
+从逻辑上看似乎是可行的。金融即数据，人工智能设计和进化的初衷，就是为了更好处理大量冗余数据、并从中去除噪音、找到隐含的模式。我们并不期望某种通用AI技术在短期内诞生。如果，是的，我们只是说如果，交易机器人能够越来越准确、持续的预测市场或个体资产的走势，那我们认为金融奇点将真的存在。
+
+
+
+
+当然，这只是我们一厢情愿的想法。2013年诺贝尔经济学奖得主，罗伯特·希勒（Robert J. Shiller）教授就表达他的看法，金融奇点终将不会到来，因为*“Human judgement, good and bad, will drive investment decisions and financial-market outcomes for the rest of our lives and beyond”*。[1]
+
+
+
+
+如果你对这些也有兴趣，欢迎随时给我们留言，邮件地址为：**<hello@szvlab.com>**。
+
+
+
+
+
+[1]:https://insights.som.yale.edu/insights/the-mirage-of-the-financial-singularity#:~:text=The%20financial%20singularity%2C%20a%20hypothetical%20state%20in%20which,Shiller%2C%20because%20people%20will%20continue%20to%20influence%20markets.
