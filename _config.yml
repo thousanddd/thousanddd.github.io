@@ -9,14 +9,14 @@
 title: Spring Volatility Lab | 泉烽波动实验室
 
 # Your name to show in the footer
-author: A Platform For Volatility Tech
+author: A Platform For Practical Forecasting Tech
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   主页: "https://thousanddd.github.io/index.html"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+  项目:
+    - 案例: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   关于我们: "aboutme"
 
