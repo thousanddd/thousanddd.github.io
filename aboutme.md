@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: 关于我们
+subtitle: Volatility as a Service
 ---
 
 
