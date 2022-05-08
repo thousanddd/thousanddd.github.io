@@ -17,7 +17,7 @@ navbar-links:
   主页: "https://www.szvlab.com/index.html"
   项目:
     - 案例: "project"
-    - Resources: "https://www.markdowntutorial.com/"
+    - Resources: "https://www.oreilly.com/radar/"
   关于我们: "aboutme"
 
 # --- Logo --- #
@@ -69,7 +69,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: A Platform For Volatility Tech
+rss-description: A Platform For Practical Forecasting Tech
 
 # --- General options --- #
 
