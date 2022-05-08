@@ -14,7 +14,7 @@ author: A Platform For Practical Forecasting Tech
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  主页: "https://thousanddd.github.io/index.html"
+  主页: "https://www.szvlab.com/index.html"
   项目:
     - 案例: "project"
     - Resources: "https://www.markdowntutorial.com/"
@@ -136,7 +136,7 @@ footer-hover-col: "#0085A1"
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-# gtag: ""
+gtag: "G-ZSJVR98DD6"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 google_analytics: "UA-168032639-2"
