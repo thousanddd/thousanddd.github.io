@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2.6 预测大盘或个股的走势-线性回归模型"
-date:   2022-05-25
+date:   2022-05-24
 categories: 大盘走势 回归模型 VIX
 ---
 
