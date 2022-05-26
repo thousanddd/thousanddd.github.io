@@ -300,3 +300,130 @@ hits.values[0] / sum(hits)
 
 
 上面的计算逻辑很直观，只有当1&1，或-1&-1的时候预测为正确的。这里是2292次，对应的预测准确率为51%。就是我们的基准值，后面的模型需要超过这个值才算成功。
+
+
+### 回测策略效果
+
+
+用模型预测的准确率，不能直观的看到这个策略的效果。所以，我们用预测的市场走势，乘以预测当天实际的涨跌幅，得到这个策略更直观的业绩效果。为了简化处理，这里先不考虑交易成本。
+
+
+```python
+data.head()
+```
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+    
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>close</th>
+      <th>return</th>
+      <th>lag_1</th>
+      <th>lag_2</th>
+      <th>lag_3</th>
+      <th>lag_4</th>
+      <th>lag_5</th>
+      <th>prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>6</th>
+      <td>1116.799</td>
+      <td>0.031854</td>
+      <td>-0.019115</td>
+      <td>0.014947</td>
+      <td>0.009849</td>
+      <td>0.013906</td>
+      <td>0.047741</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1102.341</td>
+      <td>-0.013030</td>
+      <td>0.031854</td>
+      <td>-0.019115</td>
+      <td>0.014947</td>
+      <td>0.009849</td>
+      <td>0.013906</td>
+      <td>-1.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1079.720</td>
+      <td>-0.020734</td>
+      <td>-0.013030</td>
+      <td>0.031854</td>
+      <td>-0.019115</td>
+      <td>0.014947</td>
+      <td>0.009849</td>
+      <td>-1.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1073.977</td>
+      <td>-0.005333</td>
+      <td>-0.020734</td>
+      <td>-0.013030</td>
+      <td>0.031854</td>
+      <td>-0.019115</td>
+      <td>0.014947</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1083.652</td>
+      <td>0.008968</td>
+      <td>-0.005333</td>
+      <td>-0.020734</td>
+      <td>-0.013030</td>
+      <td>0.031854</td>
+      <td>-0.019115</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+```python
+data['strategy'] = data['prediction'] * data['return']
+```
+
+```python
+data[['return', 'strategy']].sum().apply(np.exp)
+```
+
+
+    return      2.537378
+    strategy    1.266215
+    dtype: float64
+
+
+```python
+data[['return', 'strategy']].dropna().cumsum().apply(np.exp).plot(figsize=(10, 6))
+plt.title('通过回归模型搭建的上证50指数策略的业绩展示')
+plt.ylabel('Rmb')
+plt.xlabel('Days')
+plt.grid()
+```
+
+​    
+![output_27_0.png](https://s2.loli.net/2022/05/26/bZI7dV1r89A2yjN.png)
+​    
