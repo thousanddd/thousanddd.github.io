@@ -309,100 +309,6 @@ hits.values[0] / sum(hits)
 
 
 ```python
-data.head()
-```
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>close</th>
-      <th>return</th>
-      <th>lag_1</th>
-      <th>lag_2</th>
-      <th>lag_3</th>
-      <th>lag_4</th>
-      <th>lag_5</th>
-      <th>prediction</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>6</th>
-      <td>1116.799</td>
-      <td>0.031854</td>
-      <td>-0.019115</td>
-      <td>0.014947</td>
-      <td>0.009849</td>
-      <td>0.013906</td>
-      <td>0.047741</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>1102.341</td>
-      <td>-0.013030</td>
-      <td>0.031854</td>
-      <td>-0.019115</td>
-      <td>0.014947</td>
-      <td>0.009849</td>
-      <td>0.013906</td>
-      <td>-1.0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>1079.720</td>
-      <td>-0.020734</td>
-      <td>-0.013030</td>
-      <td>0.031854</td>
-      <td>-0.019115</td>
-      <td>0.014947</td>
-      <td>0.009849</td>
-      <td>-1.0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>1073.977</td>
-      <td>-0.005333</td>
-      <td>-0.020734</td>
-      <td>-0.013030</td>
-      <td>0.031854</td>
-      <td>-0.019115</td>
-      <td>0.014947</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>1083.652</td>
-      <td>0.008968</td>
-      <td>-0.005333</td>
-      <td>-0.020734</td>
-      <td>-0.013030</td>
-      <td>0.031854</td>
-      <td>-0.019115</td>
-      <td>1.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-```python
 data['strategy'] = data['prediction'] * data['return']
 ```
 
@@ -426,4 +332,6 @@ plt.grid()
 
 ​    
 ![output_27_0.png](https://s2.loli.net/2022/05/26/bZI7dV1r89A2yjN.png)
-​    
+​
+
+从回测的效果看，这个策略是无效的。下面，我们继续测试新的算法，寻找进一步优化的空间。
