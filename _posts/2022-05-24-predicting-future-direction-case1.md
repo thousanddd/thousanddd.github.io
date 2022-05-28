@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2.6 预测大盘走势-线性回归模型"
+title:  "2.6 预测大盘走势（1/3）-线性回归模型"
 date:   2022-05-24
 categories: 大盘走势 回归模型 VIX
 ---
