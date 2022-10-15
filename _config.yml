@@ -14,7 +14,11 @@ author: Copyright © 2022 SHENZHEN VOLATILITY RESEARCH - All Rights Reserved.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  返回: "https://blog.szvlab.com/"
+  # 返回: "https://blog.szvlab.com/"
+  # 项目:
+    # - 案例: "project"
+    # - Resources: "https://www.oreilly.com/radar/"
+  # 关于我们: "aboutme"
 
 # --- Logo --- #
 
@@ -35,7 +39,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  # email: "someone@example.com"
+   email: "hello@szvlab.com"
    rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
 #  github: daattali
@@ -65,7 +69,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: 量化策略研发
+rss-description: 量化交易入门
 
 # --- General options --- #
 
@@ -78,7 +82,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"
+url-pretty: "www.szvlab.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -93,7 +97,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "量化策略研发,程序化交易策略,投资系统,量化交易系统"
+keywords: "量化交易入门,量化交易学习,量化策略研发,程序化交易策略,投资系统,量化交易系统"
 
 # --- Colours / background image --- #
 
